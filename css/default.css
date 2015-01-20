@@ -1,0 +1,407 @@
+html,body,iframe,div,span,h1,h2,h3,h4,h5,h6,p,a,img,b,u,i,ol,ul,li,fieldset,form,label,legend{
+	margin:0;padding:0;border:0;outline:0;vertical-align:top;background:transparent
+}
+
+html {
+	/* background:#cecece; */
+	/* border-top: 4px solid #38acec; */
+	/* border-top: 4px solid #f96306; */
+}
+
+body {
+	font-family: 'Open Sans', sans-serif, Arial, Verdana;
+	font-size: 1em;
+	line-height: 1.6em;
+	min-width:260px;
+}
+
+p, ul, ol a{
+	font-size: 1.1em;
+	margin:1em 0;
+	padding:0;
+}
+/*  */
+a { color: #489cdf; }
+
+ul, ol {
+	margin:1em 2em;
+}
+
+img {
+	max-width: 100%;
+	display:block;
+	margin:auto;
+}
+
+
+h1, h2, h3 {
+	font-family: Helvetica, sans-serif;
+	text-shadow: 2px 2px 2px #ccc;
+	line-height: 1em;
+	color: #222;
+}
+
+	h1 {
+		border-bottom: 1px solid #ccc;
+		margin: 0 0 0.4em 0;
+		font-size: 2.5em;
+		line-height: 1.2em;
+		font-style: normal;
+	}
+
+	h2 {
+		margin: 1em 0 0.5em 0;
+		font-size: 1.5em;
+	}
+
+	h3 {
+	    font-size: 1.3em;
+	    margin: 1em 0 0.5em 0;
+	}
+
+header.top {
+	display:block;
+	height:50px;
+	padding:0;
+	margin-bottom:2em;
+	background-color:#333;
+}
+
+header section.menu,#content,footer.foot {
+	max-width:960px;
+	margin:0 auto;
+}
+
+#logo {
+	display:block;
+	float:left;
+	height:40px;
+	width:40px;
+	margin-top:7px;
+	margin-left:5px;
+	background: url(/img/logo.png) no-repeat;
+}
+
+header nav{
+	float:right;
+}
+
+header nav ul, header nav ul li {
+	font-size: 1em;
+	margin:0;
+	padding:0;
+}
+
+header nav ul li{
+	display:inline-block;
+}
+
+header nav ul li a{
+	display:inline-block;
+	margin:0 1px;
+	padding:0px 15px;
+	font-size:1.3em;
+	color:#ccc;
+	text-decoration:none;
+	line-height:50px;
+}
+
+header nav ul li a:hover {
+	color:#fff;
+}
+
+#page{width:95%;font-size:1.25em;line-height:1.8em}
+
+body.about header nav ul li.about a, body.blog header nav ul li.blog a, body.projects header nav ul li.projects a, body.home header nav ul li.home a  {
+	color:#fff;
+	background: url(/img/selected_menu.png) no-repeat center bottom;
+}
+
+
+#about div {
+	display:inline-block;
+	max-width:770px;
+}
+
+
+ul.projects {
+	margin:0 0;
+	padding:0;
+}
+
+ul.projects li {
+	display:inline-block;
+}
+
+ul.projects li a{
+	display:inline-block;
+	width:16em;
+	height:16em;
+	margin:1em;
+}
+
+ul.projects li a:hover{
+	/* box-shadow: 0 0 32px 16px #ccc; */
+}
+ul.projects li a:hover .title {
+	text-decoration:underline;
+	color:#f96306;
+}
+
+ul.projects span{
+	display:inline-block;
+	width:100%;
+	color:#333;
+}
+
+ul.projects span.title {
+	margin-top:0.2em;
+	font-size:1.2em;
+}
+
+ul.projects span.tags{
+	font-size:1.0em;
+	color:#999;
+}
+
+ul.projects img{
+	display:inline;
+	width:100%;
+	max-width:300px;
+}
+
+#container {
+	width: 95%;
+	text-align: left;
+}
+
+#main {
+	position: relative;
+	margin: 0 auto;
+	padding: 32px 0 0;
+	text-align: left;
+}
+
+#sidebar {
+	float: left;
+	display: inline;
+	width: 27%;
+	padding: 32px 0 0;
+}
+
+
+body.frontpage #main {
+	float: left;
+	width: 68%;
+	margin-right: 5%;
+}
+
+body.frontpage .about-teaser p {
+	font-size: 0.9em;
+	line-height: 1.6em;
+}
+
+div {
+	width:100%;
+}
+
+#content .posts {
+	display:inline-block;
+	width:660px;
+	padding: 0;
+	font-size: 1em;
+	margin:0;
+}
+#content .posts li {
+	width:100%;
+	margin:0;
+	list-style: none;
+}
+#content .posts li .post_name {
+	display:inline-block;
+	width:500px;
+}
+#content .posts li .post_date {
+	display:inline-block;
+	width:160px;
+	text-align:right;
+}
+
+#content .posts li a {
+	display:inline-block;
+	padding: 8px 0;
+}
+
+#content .posts li a:hover {
+	background-color:#efefef;
+	text-decoration: none;
+}
+#content .posts li a:hover {
+	background-color:#eee;
+	text-decoration: none;
+}
+
+#recent-blog-posts {
+	display:inline-block;
+	max-width:700px;
+}
+
+#recent-blog-posts h1 a, #recent-blog-posts h2 a{
+	color:#333;
+	text-decoration:none;
+}
+
+#recent-blog-posts h1, #recent-blog-posts h2 {
+	margin-bottom:0.5em;
+}
+
+article.preview{
+	margin:0;
+	padding:0 0 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+article.preview img{
+	display:inline-block;
+	margin:3px 3px 0 0;
+}
+article.preview p{
+	margin:0 0 0 5px;
+	padding:0;
+	display:inline-block;
+	max-width:507px;
+}
+
+article.preview.big p{
+	max-width:437px;
+}
+
+article.preview img{
+	width:160px;
+}
+article.preview.big img{
+	width:240px;
+}
+
+article.preview h3{
+
+}
+
+article.preview span.stamp{
+	display:inline-block;
+	font-style:italic;
+	font-size:0.8em;
+}
+
+a.blogbtn {
+	display:inline-block;
+	width:100%;
+	line-height:3em;
+	text-align:center;
+	background-color:#ccc;
+}
+a.blogbtn:hover {
+	background-color:#eee;
+}
+
+#elsewhere {
+	width: 180px;
+	text-align:center;
+	verticle-align:top;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#elsewhere ul {
+	font-size: 1em;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+#elsewhere ul li{
+	display:inline-block;
+}
+
+#elsewhere ul li a{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	margin:3px;
+}
+
+footer.foot {
+	border-top: 1px solid #ccc;
+	padding:5px 0;
+	margin-top:50px;
+	text-align:center;
+	color:#999;
+	font-weight:400;
+	font-size:0.9em;
+}
+
+
+@media all and (orientation:portrait) {
+  /* Style adjustments for portrait mode goes here */
+
+}
+
+@media all and (orientation:landscape) {
+  /* Style adjustments for landscape mode goes here */
+
+}
+
+
+
+/* Opera Mobile, Mobile Safari, Android Chrome */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+/* max-width: 480
+....................................................................................... */
+
+@media screen and (max-width: 480px) {
+
+	body {
+		font-size: 0.8em;
+	}
+
+	header.top {
+		height: 50px;
+	}
+
+	header.top nav ul li a{
+		margin:0 0px;
+		padding:0px 5px;
+
+	}
+}
+
+
+/* max-width: 320
+....................................................................................... */
+
+@media screen and (max-width: 320px) {
+	body {
+
+	}
+
+	header.top {
+		height: 50px;
+	}
+
+	header.top nav ul li a{
+		margin:0 0px;
+		padding:0px 5px;
+		font-size: 1.1em;
+	}
+
+	h1 {
+		font-size: 2.0em;
+	}
+}
