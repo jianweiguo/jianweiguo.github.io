@@ -1,10 +1,41 @@
----
-layout: default
-title: "Jianwei Guo's Homepage"
-description: "This is the personal website of Jianwei Guo"
-keywords: "Jianwei Guo, personal, website, research"
-site_section: home
----
+<!doctype html>
+<head>
+	<meta charset="UTF-8" />
+	<title> Jianwei Guo's Homepage </title>
+	<meta name="author" content="Jianwei Guo" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="This is the personal website of Jianwei Guo" />
+	<meta name="keywords" content="Jianwei Guo, personal, website, research" />
+	<link rel="stylesheet" type="text/css" href="/css/default.css" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-35395746-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+<body class="home">
+	<header class="top">
+		<section class="menu">
+		<nav role="navigation"><ul>
+				<li class="home"><a href="/">Home</a></li>
+				<li class="publications"><a href="/publications/">Research</a></li>
+				<li class="personal"><a href="/personal/">Personal</a></li>
+				<li class="links"><a href="/usefulLinks/">Useful Links</a></li>
+				<li class="contact"><a href="/contact/" rel="author" title="Contact me">Contact</a></li>
+			</ul>
+		</nav>
+		</section>
+	</header>
+	<div id="content">
 <style type="text/css">
 p {font-family:Georgia;font-size:18px;}
 </style>
@@ -25,3 +56,12 @@ I received my bachelor degree from <a href="http://en.sdu.edu.cn/" target="_blan
 
 <p>Computer graphics, including geometric processing, 3D shape analysis, and point-cloud-based plant modeling.</p>
 
+
+	</div>
+
+<footer class="foot">
+<p align ="center">Last Updated: Jan. 29, 2015, powered by <a href="http://en.sdu.edu.cn/" target="_blank" style="color:rgb(11,83,148)">Jekyll</a></p>
+</footer>
+
+</body>
+</html>

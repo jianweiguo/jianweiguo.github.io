@@ -1,11 +1,11 @@
 <!doctype html>
 <head>
 	<meta charset="UTF-8" />
-	<title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</title>
+	<title> Contact </title>
 	<meta name="author" content="Jianwei Guo" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	{% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
-	{% if page.keywords %}<meta name="keywords" content="{{page.keywords}}" />{% endif %}
+	<meta name="description" content="Here you can find my contact information." />
+	<meta name="keywords" content="Contact" />
 	<link rel="stylesheet" type="text/css" href="/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
 
@@ -22,7 +22,7 @@
 		})();
 	</script>
 </head>
-<body class="{{page.site_section}}">
+<body class="contact">
 	<header class="top">
 		<section class="menu">
 		<nav role="navigation"><ul>
@@ -36,7 +36,46 @@
 		</section>
 	</header>
 	<div id="content">
-{{ content }}
+<article id="about" itemscope itemtype="http://data-vocabulary.org/Person">
+<header>
+	<h1>Contact Information</h1>
+</header>
+	<div>
+	<style type="text/css">
+    p {font-family:Georgia;font-size:18px;}
+    </style>
+	<h3>Affiliation:</h3>
+	<p>
+    National Laboratory of Pattern Recognition, Institute of Automation,<br />
+    Chinese Academy of Sciences
+	</p>
+	
+	<h3>Address:</h3>
+	<p>
+    Intelligent Building,<br /> 
+    NO. 95 Zhongguancun East Road,<br /> 
+    Beijing 100190, China
+	</p>
+	
+	<h3>Email:</h3>
+	<p>
+	jianwei DOT guo AT nlpr DOT ia DOT ac DOT cn
+	</p>
+	
+	</div>
+<section id="elsewhere">
+<h3>Follow me:</h3>
+<ul id="socialize">
+<li class="github"><a href="https://github.com/jianweiguo" rel="me" title="Me on Github" target="_blank">
+	<img src="/img/social/github.png" alt="Github" />
+</a></li><li class="LinkedIn"><a href="http://cn.linkedin.com/pub/jianwei-guo/42/542/4b2" rel="me" title="Me on LinkedIn" target="_blank">
+	<img src="/img/social/linkedin.png" alt="Me on LinkedIn" />
+</a></li>
+</ul>
+</section>
+
+</article>
+
 	</div>
 
 <footer class="foot">
