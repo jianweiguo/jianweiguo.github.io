@@ -8,8 +8,9 @@ destination: "./_site"
 
 future:      true
 lsi:         false
-pygments:    true
+pygments:    false
 markdown:   kramdown
+highlighter: rouge
 permalink:   /:categories/:title/
 
 exclude: ['Rakefile', 'README.textile', 'config.rb', 'CNAME']
